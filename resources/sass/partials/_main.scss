@@ -6,7 +6,9 @@
         text-transform: uppercase;
         font-weight: bold;
     }
-    .cards {
+}
+
+.cards {
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(3,2fr);
@@ -24,4 +26,3 @@
             }
         }
     }
-}
